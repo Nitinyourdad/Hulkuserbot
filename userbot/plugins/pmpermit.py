@@ -39,7 +39,7 @@ USER_BOT_NO_WARN = (
     "To start a valid conversation\n🔱Register Your Request!🔱\nSend `/start` To Register Your Request\nHopefully u will get a reply🔥"
 )
 
-if Var.SURTURBOT_LOGGER is not None:
+if Var.MAFIABOT_LOGGER is not None:
 
     @bot.on(admin_cmd(pattern="a|.allow|.approve ?(.*)"))
     async def approve_p_m(event):
