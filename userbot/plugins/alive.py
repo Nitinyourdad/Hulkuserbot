@@ -24,11 +24,11 @@ else:
 mafia = bot.uid
 
 MAFIA_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/62397ca327cbc25906d5a.mp4"
-pm_caption = "  __**💙💙SURTUR BOT IS ALIVE💙💙**__\n\n"
+pm_caption = "  __**💀𝗦𝗨𝗥𝗧𝗨𝗥𝗕𝗢𝗧 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘💀**__\n\n"
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
 pm_caption += (
-    f"                 💙BOSS👑\n  **『😈[{DEFAULTUSER}](tg://user?id={mafia})😈』**\n\n"
+    f"                 💀🅾🆆🅽🅴🆁💀\n  **『😈[{DEFAULTUSER}](tg://user?id={mafia})😈』**\n\n"
 )
 pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
 pm_caption += f"┣•➳➠ `Telethon:` `{version.__version__}` \n"
@@ -37,7 +37,7 @@ pm_caption += f"┣•➳➠ `Sudo:` `{sudou}`\n"
 pm_caption += f"┣•➳➠ `Channel:` [ᴊᴏɪɴ](https://t.me/locys)\n"
 pm_caption += f"┣•➳➠ `Creator:` [RISHABH](https://t.me/Mafiarishabh)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += " [🔥REPO🔥](https://github.com/Mafiarishabh/SURTUR-BOT) 🔹 [📜License📜](https://github.com/Mafiarishabh/SURTUR-BOT/blob/main/LICENSE)"
+pm_caption += " [🔥REPO🔥](https://github.com/Mafiarishabh/SURTUR-BOT) 🔹 [丂ㄩ卩卩ㄖ尺ㄒ](https://t.me/surturbot_Support)"
 
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
