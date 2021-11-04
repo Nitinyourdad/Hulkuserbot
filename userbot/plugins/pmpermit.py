@@ -31,15 +31,15 @@ h1m4n5hu0p = (
     else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS CRIME"
 )
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
-USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's MafiaBot.**\n__Now GTFO, i'm busy__"
+USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's SurturBot.**\n__Now GTFO, i'm busy__"
 USER_BOT_NO_WARN = (
-    "Hello, This is **MafiaBot Ultra Private Security Protocol⚠️**.\n"
+    "Hello, This is **SurturBot Ultra Private Security Protocol⚠️**.\n"
     f"This is my master {DEFAULTUSER}'s Inbox\n"
     f"\n**{h1m4n5hu0p}**\n\n"
     "To start a valid conversation\n🔱Register Your Request!🔱\nSend `/start` To Register Your Request\nHopefully u will get a reply🔥"
 )
 
-if Var.MAFIABOT_LOGGER is not None:
+if Var.SURTURBOT_LOGGER is not None:
 
     @bot.on(admin_cmd(pattern="a|.allow|.approve ?(.*)"))
     async def approve_p_m(event):
@@ -275,7 +275,7 @@ if Var.MAFIABOT_LOGGER is not None:
             # the_message += f"Media: {message_media}"
             try:
                 await event.client.send_message(
-                    entity=Var.MAFIABOT_LOGGER,
+                    entity=Var.SURTURBOT_LOGGER,
                     message=the_message,
                     # reply_to=,
                     # parse_mode="html",
