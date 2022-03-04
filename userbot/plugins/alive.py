@@ -23,8 +23,8 @@ else:
 
 mafia = bot.uid
 
-MAFIA_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/852a8de1eaa17e61867c2.jpg"
-pm_caption = "  __**💀𝗦𝗨𝗥𝗧𝗨𝗥𝗕𝗢𝗧 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘💀**__\n\n"
+MAFIA_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/e3133de3ff48213361596.jpg"
+pm_caption = "  __**💀Hulk𝗕𝗢𝗧 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘💀**__\n\n"
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
 pm_caption += (
@@ -34,20 +34,20 @@ pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
 pm_caption += f"┣•➳➠ `Telethon:` `{version.__version__}` \n"
 pm_caption += f"┣•➳➠ `Version:` `{mafiaversion}`\n"
 pm_caption += f"┣•➳➠ `Sudo:` `{sudou}`\n"
-pm_caption += f"┣•➳➠ `Channel:` [ᴊᴏɪɴ](https://t.me/surturbot_Support)\n"
-pm_caption += f"┣•➳➠ `Creator:` [RISHABH](https://t.me/Mafiarishabh)\n"
+pm_caption += f"┣•➳➠ `Channel:` [ᴊᴏɪɴ](https://t.me/hulk_uswrbot)\n"
+pm_caption += f"┣•➳➠ `Creator:` [nitin](https://t.me/choudhary_jahdj)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += " [🔥REPO🔥](https://github.com/Mafiarishabh/SURTUR-BOT) 🔹 [丂ㄩ卩卩ㄖ尺ㄒ](https://t.me/surturbot_Support)"
+pm_caption += " [🔥REPO🔥](https://github.com/nitinyourdad/hulk) 🔹 [丂ㄩ卩卩ㄖ尺ㄒ](https://t.me/hulkuserbot)"
 
-# @command(outgoing=True, pattern="^.alive$")
-@bot.on(admin_cmd(outgoing=True, pattern="alive$"))
-@bot.on(sudo_cmd(pattern="alive$", allow_sudo=True))
-async def amireallyalive(alive):
+# @command(outgoing=True, pattern="^.nitin$")
+@bot.on(admin_cmd(outgoing=True, pattern="nitin$"))
+@bot.on(sudo_cmd(pattern="nitin$", allow_sudo=True))
+async def amireallyalive(nitin):
     await alive.get_chat()   
     await alive.delete()
     on = await borg.send_file(alive.chat_id, MAFIA_IMG,caption=pm_caption)
 
     
 CmdHelp("alive").add_command(
-  "alive", None, "To check am i alive"
+  "Nitin", None, "To check am i alive"
 ).add()
